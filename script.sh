@@ -43,11 +43,11 @@ DTYPE=1
 if [ $DTYPE -eq 1]
 then
 d=$(date --iso)
-EOF
+
 if [ $DTYPE -eq 2]
 then
 d=$(date '+%d-%m-%Y_%H_%M')
-EOF
+
 
 
 if [ $TYPE -eq 1 ]
