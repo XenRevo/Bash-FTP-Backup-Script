@@ -12,7 +12,7 @@ If you have some problem open an issues on GitHub
 
 FAQ:
 
-* >Q: How can i make backup automatic?
+* > Q: How can i make backup automatic?
 * A: You can use crontab (on linux)
 
 * >Q: Why i can't start script?
