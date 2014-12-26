@@ -29,11 +29,26 @@ FILE="BACKUP_NAME"
 #2=SFTP
 TYPE=1
 
+#Date type
+#1=Daily
+#2=Less than an hour
+DTYPE=1
+
+
+
 ##############################
 # Don't Edit Below This Line #
 ##############################
 
+if [ $DTYPE -eq 1]
+then
 d=$(date --iso)
+EOF
+if [ $DTYPE -eq 2]
+then
+d=$(date '+%d-%m-%Y_%H_%M')
+EOF
+
 
 if [ $TYPE -eq 1 ]
 then
